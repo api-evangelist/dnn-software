@@ -1,0 +1,87 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.nuget.org/packages?q=DotNetNuke
+notes: >-
+  First-party DNN Platform (DotNetNuke) .NET libraries published on NuGet under
+  the official "dotnetnuke" owner. These are the framework/extension-development
+  packages developers reference to build modules, providers, and Web API services
+  on top of DNN; they are not REST API client SDKs (DNN is a self-hosted ASP.NET
+  CMS, not a hosted API), so no `SDKs` pointer is emitted.
+packages:
+  - language: csharp
+    registry: nuget
+    name: DotNetNuke.Core
+    url: https://www.nuget.org/packages/DotNetNuke.Core
+    install: dotnet add package DotNetNuke.Core
+    official: true
+    description: Core references for DNN Platform extension development.
+  - language: csharp
+    registry: nuget
+    name: DotNetNuke.WebApi
+    url: https://www.nuget.org/packages/DotNetNuke.WebApi
+    install: dotnet add package DotNetNuke.WebApi
+    official: true
+    description: DNN Web API (ASP.NET Web API) service framework components.
+  - language: csharp
+    registry: nuget
+    name: DotNetNuke.Web
+    url: https://www.nuget.org/packages/DotNetNuke.Web
+    install: dotnet add package DotNetNuke.Web
+    official: true
+    description: Caching, security, and core web components.
+  - language: csharp
+    registry: nuget
+    name: DotNetNuke.Web.Mvc
+    url: https://www.nuget.org/packages/DotNetNuke.Web.Mvc
+    install: dotnet add package DotNetNuke.Web.Mvc
+    official: true
+    description: ASP.NET MVC extension development support.
+  - language: csharp
+    registry: nuget
+    name: DotNetNuke.Web.Client
+    url: https://www.nuget.org/packages/DotNetNuke.Web.Client
+    install: dotnet add package DotNetNuke.Web.Client
+    official: true
+    description: Client Dependency Framework integration for CSS/JS.
+  - language: csharp
+    registry: nuget
+    name: DotNetNuke.Abstractions
+    url: https://www.nuget.org/packages/DotNetNuke.Abstractions
+    install: dotnet add package DotNetNuke.Abstractions
+    official: true
+    description: Common abstraction APIs for DNN.
+  - language: csharp
+    registry: nuget
+    name: DotNetNuke.DependencyInjection
+    url: https://www.nuget.org/packages/DotNetNuke.DependencyInjection
+    install: dotnet add package DotNetNuke.DependencyInjection
+    official: true
+    description: Dependency injection API references.
+  - language: csharp
+    registry: nuget
+    name: DotNetNuke.Instrumentation
+    url: https://www.nuget.org/packages/DotNetNuke.Instrumentation
+    install: dotnet add package DotNetNuke.Instrumentation
+    official: true
+    description: Logging and instrumentation features.
+  - language: csharp
+    registry: nuget
+    name: DotNetNuke.SiteExportImport
+    url: https://www.nuget.org/packages/DotNetNuke.SiteExportImport
+    install: dotnet add package DotNetNuke.SiteExportImport
+    official: true
+    description: Site export/import (site templates) features.
+  - language: csharp
+    registry: nuget
+    name: DotNetNuke.Providers.FolderProviders
+    url: https://www.nuget.org/packages/DotNetNuke.Providers.FolderProviders
+    install: dotnet add package DotNetNuke.Providers.FolderProviders
+    official: true
+    description: Custom folder provider development.
+  - language: csharp
+    registry: nuget
+    name: DotNetNuke.Bundle
+    url: https://www.nuget.org/packages/DotNetNuke.Bundle
+    install: dotnet add package DotNetNuke.Bundle
+    official: true
+    description: Metapackage bundling the DNN development packages.

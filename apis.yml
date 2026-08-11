@@ -49,6 +49,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/dnnsoftware/Dnn.Platform/issues
+- type: Releases
+  url: https://github.com/dnnsoftware/Dnn.Platform/releases
+- type: SecurityPolicy
+  url: https://github.com/dnnsoftware/Dnn.Platform/blob/develop/SECURITY.md
+- type: CodeOfConduct
+  url: https://github.com/dnnsoftware/Dnn.Platform/blob/develop/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/dnnsoftware/Dnn.Platform/blob/develop/CONTRIBUTING.md
+- type: License
+  name: MIT
+  url: https://github.com/dnnsoftware/Dnn.Platform/blob/develop/LICENSE
 - type: DomainSecurity
   url: security/dnn-software-domain-security.yml
 - type: Website
